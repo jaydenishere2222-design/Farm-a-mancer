@@ -1,9 +1,9 @@
 [gd_scene load_steps=2 format=3 uid="uid://carkal5if0rym"]
 
-[sub_resource type="BoxMesh" id="BoxMesh_7dm0k"]
+[sub_resource type="PlaneMesh" id="PlaneMesh_7dm0k"]
 
 [node name="main" type="Node3D"]
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
-transform = Transform3D(-17.529108, 0, 0, 0, -13.561139, 0, 0, 0, 106.05324, 0, 0, 0)
-mesh = SubResource("BoxMesh_7dm0k")
+[node name="floor" type="MeshInstance3D" parent="."]
+transform = Transform3D(18.557194, 0, 0, 0, 2.5898132, 0, 0, 0, 22.467129, 0, 0, 0)
+mesh = SubResource("PlaneMesh_7dm0k")
